@@ -7,6 +7,8 @@
 *.tlog
 *.log
 *.lastbuildstate
+hme/Win32
+hme/ipch
 hme/.vs
 
 # Compiled Object files
