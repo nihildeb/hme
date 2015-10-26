@@ -1,0 +1,419 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"end",
+				"endpoint_id"
+			],
+			[
+				"par",
+				"parsed"
+			],
+			[
+				"pro",
+				"proc_id"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "themes/crisp/layouts/partials/header.html",
+			"settings":
+			{
+				"buffer_size": 3429,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{\n  // Simply using `node` without specifying a path sometimes doesn't work :(\n  // https://github.com/victorporof/Sublime-JSHint#oh-noez-command-not-found\n  // http://nodejs.org/#download\n  \"node_path\": {\n    \"windows\": \"C:/port/node/node.exe\",\n    \"linux\": \"/usr/bin/nodejs\",\n    \"osx\": \"/usr/local/bin/node\"\n  },\n\n  // Automatically lint on edit (Sublime Text 3 only).\n  \"lint_on_edit\": false,\n\n  // Configurable duration before re-linting.\n  \"lint_on_edit_timeout\": 1,\n\n  // Automatically lint when a file is loaded.\n  \"lint_on_load\": false,\n\n  // Automatically lint when a file is saved.\n  \"lint_on_save\": true,\n\n  // Highlight problematic regions when selected.\n  \"highlight_selected_regions\": false,\n\n  // Log the settings passed to JSHint from `.jshintrc`.\n  \"print_diagnostics\": true\n}\n",
+			"file": "/C/port/sublime/Data/Packages/JSHint Gutter/JSHint.sublime-settings",
+			"file_size": 798,
+			"file_write_time": 130903464102504080,
+			"settings":
+			{
+				"buffer_size": 795,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": ":w",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":e",
+				":e - Revert"
+			],
+			[
+				":we",
+				":w - Save"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"jsh",
+				"JSHint"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":reind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: Prototype"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"synjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synjav",
+				"Set Syntax: Java"
+			],
+			[
+				"syntjas",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/port/code/hme",
+		"/C/port/code/hme/page1",
+		"/C/port/code/hme/site",
+		"/C/port/code/hme/site/themes",
+		"/C/port/code/hme/site/themes/crisp",
+		"/C/port/code/hme/site/themes/crisp/images",
+		"/C/port/code/hme/site/themes/crisp/layouts",
+		"/C/port/code/hme/site/themes/crisp/layouts/partials",
+		"/C/port/code/hme/site/themes/crisp/static"
+	],
+	"file_history":
+	[
+		"/C/port/sublime/Data/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/C/port/tutorial/tutorial.mkb",
+		"/C/port/code/game/tutorial/tutorial.mkb",
+		"/C/port/code/game/.gitignore",
+		"/C/Users/asd/Documents/HelloWorld/HelloWorld.cpp",
+		"/C/port/code/vrsmanager/index.js",
+		"/C/port/code/vrsmanager/api.js",
+		"/C/port/code/vrsmanager/test/api_test.js",
+		"/C/Users/asd/Desktop/Auf der Steige 19.txt",
+		"/C/Users/asd/Desktop/Auf der Steige 19",
+		"/C/port/sublime/Data/Packages/User/Preferences.sublime-settings",
+		"/C/port/code/vrsmanager/package.json",
+		"/C/port/code/vrsmanager/.jshintrc",
+		"/C/port/cmder/config/aliases",
+		"/C/syncthing/syncthing.bat",
+		"/C/Users/asd/Desktop/essen.txt",
+		"/C/port/cmder/vendor/init.bat",
+		"/C/port/sublime/Data/Packages/User/javascript/siaf.sublime-snippet",
+		"/C/port/test.js",
+		"/C/port/%1",
+		"/C/port/%2",
+		"/C/port/sublime/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/port/cmder/config/blah.html",
+		"/C/port/cmder/config/blah.js",
+		"/C/port/sublime/Data/Packages/User/SublimeLinter.sublime-settings",
+		"/C/port/sublime/Data/Packages/User/Package Control.sublime-settings",
+		"/C/port/code/the name to change",
+		"/C/port/Sublime Text Build 3083 x64/Data/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"endpoint_id",
+			"8675309",
+			"n",
+			"'\\",
+			"host",
+			"proc_id",
+			" }",
+			"400",
+			"return",
+			"On",
+			"a",
+			"='",
+			"git",
+			"='",
+			"alias",
+			"name",
+			"lakjsdas",
+			"snipp",
+			"the",
+			"name",
+			"e",
+			"name"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "themes/crisp/layouts/partials/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2625,
+								2625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/port/sublime/Data/Packages/JSHint Gutter/JSHint.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"index.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"bl",
+				"C:\\port\\cmder\\config\\blah.js"
+			],
+			[
+				"te",
+				"C:\\port\\test.js"
+			],
+			[
+				"ali",
+				"C:\\port\\cmder\\config\\aliases"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

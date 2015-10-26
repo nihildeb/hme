@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Happy Moose Engine</title>
+    <link>http://localhost:1313/hme/post/</link>
+    <description>Recent content in Posts on Happy Moose Engine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>All rights reserved - 2015</copyright>
+    <lastBuildDate>Mon, 26 Oct 2015 16:40:01 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/hme/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1 click to win</title>
+      <link>http://localhost:1313/hme/post/1-click-to-win/</link>
+      <pubDate>Mon, 26 Oct 2015 16:40:01 +0100</pubDate>
+      
+      <guid>http://localhost:1313/hme/post/1-click-to-win/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
