@@ -22,6 +22,10 @@
 *.a
 *.lib
 
+# studio garbage
+*.sdf
+*.opensdf
+
 # Executables
 *.exe
 *.out
