@@ -2,56 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Happy Moose Engine</title>
-    <link>http://localhost:1313/hme/</link>
+    <link>http://nihildeb.github.io/hme/</link>
     <description>Recent content on Happy Moose Engine</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2015</copyright>
     <lastBuildDate>Mon, 26 Oct 2015 16:47:46 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/hme/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://nihildeb.github.io/hme/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>goals</title>
-      <link>http://localhost:1313/hme/goals/</link>
+      <link>http://nihildeb.github.io/hme/goals/</link>
       <pubDate>Mon, 26 Oct 2015 16:47:46 +0100</pubDate>
       
-      <guid>http://localhost:1313/hme/goals/</guid>
+      <guid>http://nihildeb.github.io/hme/goals/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sagas</title>
-      <link>http://localhost:1313/hme/sagas/</link>
+      <link>http://nihildeb.github.io/hme/sagas/</link>
       <pubDate>Mon, 26 Oct 2015 16:47:39 +0100</pubDate>
       
-      <guid>http://localhost:1313/hme/sagas/</guid>
+      <guid>http://nihildeb.github.io/hme/sagas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>1 click to win</title>
-      <link>http://localhost:1313/hme/post/1-click-to-win/</link>
+      <link>http://nihildeb.github.io/hme/post/1-click-to-win/</link>
       <pubDate>Mon, 26 Oct 2015 16:40:01 +0100</pubDate>
       
-      <guid>http://localhost:1313/hme/post/1-click-to-win/</guid>
+      <guid>http://nihildeb.github.io/hme/post/1-click-to-win/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugo</title>
-      <link>http://localhost:1313/hme/hugo/</link>
+      <link>http://nihildeb.github.io/hme/hugo/</link>
       <pubDate>Mon, 26 Oct 2015 16:39:14 +0100</pubDate>
       
-      <guid>http://localhost:1313/hme/hugo/</guid>
+      <guid>http://nihildeb.github.io/hme/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://localhost:1313/hme/about/</link>
+      <link>http://nihildeb.github.io/hme/about/</link>
       <pubDate>Mon, 26 Oct 2015 14:58:41 +0100</pubDate>
       
-      <guid>http://localhost:1313/hme/about/</guid>
+      <guid>http://nihildeb.github.io/hme/about/</guid>
       <description>
 
 &lt;p&gt;Hiya&lt;/p&gt;

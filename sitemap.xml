@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/hme/</loc>
+    <loc>http://nihildeb.github.io/hme/</loc>
     <lastmod>2015-10-26T16:47:46+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/hme/goals/</loc>
+    <loc>http://nihildeb.github.io/hme/goals/</loc>
     <lastmod>2015-10-26T16:47:46+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/hme/sagas/</loc>
+    <loc>http://nihildeb.github.io/hme/sagas/</loc>
     <lastmod>2015-10-26T16:47:39+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/hme/post/1-click-to-win/</loc>
+    <loc>http://nihildeb.github.io/hme/post/1-click-to-win/</loc>
     <lastmod>2015-10-26T16:40:01+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/hme/hugo/</loc>
+    <loc>http://nihildeb.github.io/hme/hugo/</loc>
     <lastmod>2015-10-26T16:39:14+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/hme/about/</loc>
+    <loc>http://nihildeb.github.io/hme/about/</loc>
     <lastmod>2015-10-26T14:58:41+01:00</lastmod>
   </url>
   
