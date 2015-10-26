@@ -1,3 +1,14 @@
+# studio garbage
+*.sdf
+*.opensdf
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.log
+*.lastbuildstate
+hme/.vs
+
 # Compiled Object files
 *.slo
 *.lo
@@ -21,10 +32,6 @@
 *.la
 *.a
 *.lib
-
-# studio garbage
-*.sdf
-*.opensdf
 
 # Executables
 *.exe
