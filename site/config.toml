@@ -1,10 +1,16 @@
 baseurl = "http://nihildeb.github.io/hme/"
 languageCode = "en-us"
 title= "Happy Moose Engine"
-theme = "crisp"
+theme = "purehugo"
 paginate = 10
 # DisqusShortname = "YOUR_SHORT_NAME_HERE"
 Copyright = "All rights reserved - 2015"
 canonifyurls = true
 layoutdir= "layouts"
 publishdir= ".."
+
+[params]
+  twitterName = "nihildeb"
+  githubName = "nihildeb"
+  description = "Development of Another C++ Game Engine"
+  google_analytics = "UA-1073464-7"
