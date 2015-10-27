@@ -45,6 +45,9 @@
     <ClInclude Include="..\..\dep\entityx\help\Timer.h">
       <Filter>Header Files\help</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\dep\entityx\Entity.cc">

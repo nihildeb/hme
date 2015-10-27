@@ -120,6 +120,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\dep\entityx\config.h" />
     <ClInclude Include="..\..\dep\entityx\Entity.h" />
     <ClInclude Include="..\..\dep\entityx\entityx.h" />
     <ClInclude Include="..\..\dep\entityx\Event.h" />
