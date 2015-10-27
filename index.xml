@@ -7,70 +7,86 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>All rights reserved - 2015</copyright>
-    <lastBuildDate>Mon, 26 Oct 2015 16:47:46 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2015 16:40:01 +0100</lastBuildDate>
     <atom:link href="http://nihildeb.github.io/hme/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>goals</title>
-      <link>http://nihildeb.github.io/hme/goals/</link>
-      <pubDate>Mon, 26 Oct 2015 16:47:46 +0100</pubDate>
-      
-      <guid>http://nihildeb.github.io/hme/goals/</guid>
-      <description>
-
-&lt;h4 id=&#34;goals-md:67219471296bc33b6a375f4239ac14a2&#34;&gt;Goals MD&lt;/h4&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>sagas</title>
-      <link>http://nihildeb.github.io/hme/sagas/</link>
-      <pubDate>Mon, 26 Oct 2015 16:47:39 +0100</pubDate>
-      
-      <guid>http://nihildeb.github.io/hme/sagas/</guid>
-      <description>
-
-&lt;h2 id=&#34;sagas-md:f217c2efb2680b78c774c242acf8b3a2&#34;&gt;Sagas MD&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>1 click to win</title>
+      <title>saga 1 - click to win</title>
       <link>http://nihildeb.github.io/hme/post/1-click-to-win/</link>
-      <pubDate>Mon, 26 Oct 2015 16:40:01 +0100</pubDate>
+      <pubDate>Sun, 25 Oct 2015 16:40:01 +0100</pubDate>
       
       <guid>http://nihildeb.github.io/hme/post/1-click-to-win/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>http://nihildeb.github.io/hme/hugo/</link>
-      <pubDate>Mon, 26 Oct 2015 16:39:14 +0100</pubDate>
+      <title>sagas</title>
+      <link>http://nihildeb.github.io/hme/sagas/</link>
+      <pubDate>Thu, 22 Oct 2015 16:47:39 +0100</pubDate>
       
-      <guid>http://nihildeb.github.io/hme/hugo/</guid>
-      <description>
-
-&lt;h3 id=&#34;hugo-md:32ab7241d48fcc174c877413a917f8cf&#34;&gt;Hugo MD&lt;/h3&gt;
+      <guid>http://nihildeb.github.io/hme/sagas/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://nihildeb.github.io/hme/post/1-click-to-win/&#34;&gt;saga 1 - click to win&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>about</title>
-      <link>http://nihildeb.github.io/hme/about/</link>
-      <pubDate>Mon, 26 Oct 2015 14:58:41 +0100</pubDate>
+      <title>goals</title>
+      <link>http://nihildeb.github.io/hme/goals/</link>
+      <pubDate>Tue, 20 Oct 2015 16:47:46 +0100</pubDate>
       
-      <guid>http://nihildeb.github.io/hme/about/</guid>
+      <guid>http://nihildeb.github.io/hme/goals/</guid>
       <description>
 
-&lt;p&gt;Hiya&lt;/p&gt;
+&lt;h4 id=&#34;goals-md:67219471296bc33b6a375f4239ac14a2&#34;&gt;Goals MD&lt;/h4&gt;
 
-&lt;h2 id=&#34;asd:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;asd&lt;/h2&gt;
+&lt;p&gt;Improve C++ skills for my job. Unfortunately, this includes the constraints: on Windows with Visual Studio. This would not be my personal choice, so I don&amp;rsquo;t apologize.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func getTrue() bool {
-    return true
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;I want to create games&lt;/li&gt;
+&lt;li&gt;In C++&lt;/li&gt;
+&lt;li&gt;They should run on Windows, Linux, and Android&lt;/li&gt;
+&lt;li&gt;Fast iteration and reckless abandon&lt;/li&gt;
+&lt;li&gt;I will follow the 7DRL development model (release a &amp;ldquo;game&amp;rdquo; each week)&lt;/li&gt;
+&lt;li&gt;Iteratively build a fast engine which supports a wide variety of 2D games&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After evaluating Marmalade and Cocos2d-x, I decided to drop down a layer. They both had a ton of cruft, and too much build magic.&lt;/p&gt;
+
+&lt;p&gt;So, I will start with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SFML 2.3.2 &lt;a href=&#34;http://www.sfml-dev.org/documentation/2.3.2/&#34;&gt;http://www.sfml-dev.org/documentation/2.3.2/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EntityX &lt;a href=&#34;https://github.com/alecthomas/entityx&#34;&gt;https://github.com/alecthomas/entityx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Boost::Test &lt;a href=&#34;http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html&#34;&gt;http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;easylogging++ &lt;a href=&#34;https://github.com/easylogging/easyloggingpp&#34;&gt;https://github.com/easylogging/easyloggingpp&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will follow an Entity-Component-System architecture. I plan to apply it thoroughly and without restraint. I have reviewed the cod of several ECS systems. There are many bad ones which miss the point. There is one good one I have found in C++ which is EntityX.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/&#34;&gt;http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Not only does EntityX stay true to the principle, but it keeps an eye towards memory locality of component data which should help cache performance to boot. I will use it as a reference, but I also want to do it differently.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll start with EntityX in any case&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://nihildeb.github.io/hme/hugo/</link>
+      <pubDate>Tue, 20 Oct 2015 16:39:14 +0100</pubDate>
+      
+      <guid>http://nihildeb.github.io/hme/hugo/</guid>
+      <description>&lt;p&gt;Just some links and commands for working with this site.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://nick.hildebrant.org/hme/&#34;&gt;http://nick.hildebrant.org/hme/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;LiveReload Local Server: hugo server -wD&lt;/li&gt;
+&lt;li&gt;Compile before push: hugo server -D&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/hme/&#34;&gt;http://localhost:1313/hme/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/hugo&#34;&gt;https://github.com/spf13/hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/commands/&#34;&gt;https://gohugo.io/commands/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

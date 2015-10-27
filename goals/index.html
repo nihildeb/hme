@@ -67,7 +67,7 @@
         <div>
             
             <div class="posts">
-                <h1 class="content-subhead">26 Oct 2015, 16:47</h1>
+                <h1 class="content-subhead">20 Oct 2015, 16:47</h1>
                 <section class="post">
                     <header class="post-header">
 
@@ -92,6 +92,36 @@
                         
 
 <h4 id="goals-md:67219471296bc33b6a375f4239ac14a2">Goals MD</h4>
+
+<p>Improve C++ skills for my job. Unfortunately, this includes the constraints: on Windows with Visual Studio. This would not be my personal choice, so I don&rsquo;t apologize.</p>
+
+<ul>
+<li>I want to create games</li>
+<li>In C++</li>
+<li>They should run on Windows, Linux, and Android</li>
+<li>Fast iteration and reckless abandon</li>
+<li>I will follow the 7DRL development model (release a &ldquo;game&rdquo; each week)</li>
+<li>Iteratively build a fast engine which supports a wide variety of 2D games</li>
+</ul>
+
+<p>After evaluating Marmalade and Cocos2d-x, I decided to drop down a layer. They both had a ton of cruft, and too much build magic.</p>
+
+<p>So, I will start with:</p>
+
+<ul>
+<li>SFML 2.3.2 <a href="http://www.sfml-dev.org/documentation/2.3.2/">http://www.sfml-dev.org/documentation/2.3.2/</a></li>
+<li>EntityX <a href="https://github.com/alecthomas/entityx">https://github.com/alecthomas/entityx</a></li>
+<li>Boost::Test <a href="http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html">http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html</a></li>
+<li>easylogging++ <a href="https://github.com/easylogging/easyloggingpp">https://github.com/easylogging/easyloggingpp</a></li>
+</ul>
+
+<p>I will follow an Entity-Component-System architecture. I plan to apply it thoroughly and without restraint. I have reviewed the cod of several ECS systems. There are many bad ones which miss the point. There is one good one I have found in C++ which is EntityX.</p>
+
+<p><a href="http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/">http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/</a></p>
+
+<p>Not only does EntityX stay true to the principle, but it keeps an eye towards memory locality of component data which should help cache performance to boot. I will use it as a reference, but I also want to do it differently.</p>
+
+<p>I&rsquo;ll start with EntityX in any case&hellip;</p>
 
                     </div>
                     
