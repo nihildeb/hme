@@ -22,8 +22,8 @@ So, I will start with:
 
 * SFML 2.3.2 http://www.sfml-dev.org/documentation/2.3.2/
 * EntityX https://github.com/alecthomas/entityx
-* Boost::Test http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html
 * easylogging++ https://github.com/easylogging/easyloggingpp
+* Boost::Test http://www.boost.org/doc/libs/1_59_0/libs/test/doc/html/index.html
 
 I will follow an Entity-Component-System architecture. I plan to apply it thoroughly and without restraint. I have reviewed the cod of several ECS systems. There are many bad ones which miss the point. There is one good one I have found in C++ which is EntityX.
 
