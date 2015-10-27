@@ -7,9 +7,9 @@
 *.tlog
 *.log
 *.lastbuildstate
-hme/Win32
-hme/ipch
-hme/.vs
+vs/Win32
+vs/ipch
+vs/.vs
 
 # Compiled Object files
 *.slo
