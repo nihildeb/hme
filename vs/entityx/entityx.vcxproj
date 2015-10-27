@@ -25,7 +25,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -68,7 +68,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(ProjectDir)..\..\dep;$(WindowsSDK_IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -118,6 +120,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\dep\entityx\Entity.h" />
+    <ClInclude Include="..\..\dep\entityx\entityx.h" />
+    <ClInclude Include="..\..\dep\entityx\Event.h" />
+    <ClInclude Include="..\..\dep\entityx\help\NonCopyable.h" />
+    <ClInclude Include="..\..\dep\entityx\help\Pool.h" />
+    <ClInclude Include="..\..\dep\entityx\help\Timer.h" />
+    <ClInclude Include="..\..\dep\entityx\quick.h" />
+    <ClInclude Include="..\..\dep\entityx\System.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dep\entityx\Entity.cc" />
+    <ClCompile Include="..\..\dep\entityx\Event.cc" />
+    <ClCompile Include="..\..\dep\entityx\help\Pool.cc" />
+    <ClCompile Include="..\..\dep\entityx\help\Timer.cc" />
+    <ClCompile Include="..\..\dep\entityx\System.cc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

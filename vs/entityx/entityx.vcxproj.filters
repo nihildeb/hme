@@ -13,5 +13,54 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\help">
+      <UniqueIdentifier>{90c2be0a-0adf-493f-b203-dbb4ea2a920b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\help">
+      <UniqueIdentifier>{978f9e54-1306-4a7f-893b-88b571d48da1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\dep\entityx\Entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\entityx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\quick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\help\NonCopyable.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\help\Pool.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\help\Timer.h">
+      <Filter>Header Files\help</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dep\entityx\Entity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\entityx\Event.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\entityx\System.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\entityx\help\Pool.cc">
+      <Filter>Source Files\help</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dep\entityx\help\Timer.cc">
+      <Filter>Source Files\help</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
