@@ -21,48 +21,48 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\dep\entityx\Entity.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\entityx.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\Event.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\entityx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\quick.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\Event.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\System.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\quick.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\help\NonCopyable.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dep\entityx\entityx\help\NonCopyable.h">
       <Filter>Header Files\help</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\help\Pool.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\help\Pool.h">
       <Filter>Header Files\help</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\help\Timer.h">
+    <ClInclude Include="..\..\dep\entityx\entityx\help\Timer.h">
       <Filter>Header Files\help</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\dep\entityx\config.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\dep\entityx\Entity.cc">
+    <ClCompile Include="..\..\dep\entityx\entityx\Entity.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\dep\entityx\Event.cc">
+    <ClCompile Include="..\..\dep\entityx\entityx\Event.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\dep\entityx\System.cc">
+    <ClCompile Include="..\..\dep\entityx\entityx\System.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\dep\entityx\help\Pool.cc">
+    <ClCompile Include="..\..\dep\entityx\entityx\help\Pool.cc">
       <Filter>Source Files\help</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\dep\entityx\help\Timer.cc">
+    <ClCompile Include="..\..\dep\entityx\entityx\help\Timer.cc">
       <Filter>Source Files\help</Filter>
     </ClCompile>
   </ItemGroup>
