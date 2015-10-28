@@ -7,6 +7,8 @@
 *.tlog
 *.log
 *.lastbuildstate
+*.user
+**/Debug/**
 vs/Win32
 vs/ipch
 vs/.vs
@@ -33,7 +35,7 @@ vs/.vs
 *.lai
 *.la
 *.a
-*.lib
+# *.lib
 
 # Executables
 *.exe

@@ -1,0 +1,26 @@
+flac.lib            sfml-audio.lib         sfml-network-s-d.lib  sfml-window-s-d.lib
+freetype.lib        sfml-graphics-d.lib    sfml-network-s.lib    sfml-window-s.lib
+jpeg.lib            sfml-graphics-s-d.lib  sfml-network.lib      sfml-window.lib
+ogg.lib             sfml-graphics-s.lib    sfml-system-d.lib     vorbis.lib
+openal32.lib        sfml-graphics.lib      sfml-system-s-d.lib   vorbisenc.lib
+sfml-audio-d.lib    sfml-main-d.lib        sfml-system-s.lib     vorbisfile.lib
+sfml-audio-s-d.lib  sfml-main.lib          sfml-system.lib
+sfml-audio-s.lib    sfml-network-d.lib     sfml-window-d.lib
+
+// release static
+sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;glew.lib;opengl32.lib;freetype.lib;jpeg.lib;
+sfml-window-s.lib;sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;
+sfml-audio-s.lib;sfml-system-s.lib;sndfile.lib;openal32.lib;
+sfml-network-s.lib;sfml-system-s.lib;ws2_32.lib;
+sfml-system-s.lib;winmm.lib;
+
+// debug static
+sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;glew.lib;opengl32.lib;freetype.lib;jpeg.lib;
+sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;winmm.lib;gdi32.lib;
+sfml-audio-s-d.lib;sfml-system-s-d.lib;sndfile.lib;openal32.lib;
+sfml-network-s-d.lib;sfml-system-s-d.lib;ws2_32.lib;
+sfml-system-s-d.lib;winmm.lib;
+
+sfml-system-s-d.lib;winmm.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;opengl32.lib;winmm.lib;gdi32.lib;sfml-graphics-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;glew.lib;opengl32.lib;freetype.lib;jpeg.lib;
+
+sfml-system-s.lib;winmm.lib;sfml-window-s.lib;sfml-system-s.lib;opengl32.lib;winmm.lib;gdi32.lib;sfml-graphics-s.lib;sfml-window-s.lib;sfml-system-s.lib;glew.lib;opengl32.lib;freetype.lib;jpeg.lib;
