@@ -348,8 +348,9 @@ class EntityManager : entityx::help::NonCopyable {
     }
     bool operator == (const Delegate& rhs) const { return i_ == rhs.i_; }
     bool operator != (const Delegate& rhs) const { return i_ != rhs.i_; }
-    Entity operator * () { return Entity(manager_, manager_->create_id(i_)); }
-    const Entity operator * () const { return Entity(manager_, manager_->create_id(i_)); }
+    //Entity operator * () { return Entity(manager_, manager_->create_id(i_)); }
+    //const Entity operator * () const { return Entity(manager_, manager_->create_id(i_)); }
+    Entity operator * () const { return Entity(manager_, manager_->create_id(i_)); }
 
    protected:
     ViewIterator(EntityManager *manager, uint32_t index)
@@ -412,10 +413,13 @@ class EntityManager : entityx::help::NonCopyable {
       void next_entity(Entity &entity) {}
     };
 
-    Iterator begin() { return Iterator(manager_, mask_, 0); }
-    Iterator end() { return Iterator(manager_, mask_, uint32_t(manager_->capacity())); }
-    const Iterator begin() const { return Iterator(manager_, mask_, 0); }
-    const Iterator end() const { return Iterator(manager_, mask_, manager_->capacity()); }
+    //Iterator begin() { return Iterator(manager_, mask_, 0); }
+    //Iterator end() { return Iterator(manager_, mask_, uint32_t(manager_->capacity())); }
+    //const Iterator begin() const { return Iterator(manager_, mask_, 0); }
+    //const Iterator end() const { return Iterator(manager_, mask_, manager_->capacity()); }
+    // code analysis says don't return const, and the function does not modify any members
+    Iterator begin() const { return Iterator(manager_, mask_, 0); }
+    Iterator end() const { return Iterator(manager_, mask_, manager_->capacity()); }
 
   private:
     friend class EntityManager;
@@ -485,8 +489,9 @@ class EntityManager : entityx::help::NonCopyable {
         ViewIterator<Iterator>::next();
       }
 
-      void next_entity(Entity &entity) {
-        unpacker_.unpack(entity);
+      //void next_entity(Entity &entity) {
+      void next_entity(Entity &entity) const {
+          unpacker_.unpack(entity);
       }
 
     private:
@@ -494,10 +499,12 @@ class EntityManager : entityx::help::NonCopyable {
     };
 
 
-    Iterator begin() { return Iterator(manager_, mask_, 0, unpacker_); }
-    Iterator end() { return Iterator(manager_, mask_, static_cast<uint32_t>(manager_->capacity()), unpacker_); }
-    const Iterator begin() const { return Iterator(manager_, mask_, 0, unpacker_); }
-    const Iterator end() const { return Iterator(manager_, mask_, static_cast<uint32_t>(manager_->capacity()), unpacker_); }
+    //Iterator begin() { return Iterator(manager_, mask_, 0, unpacker_); }
+    //Iterator end() { return Iterator(manager_, mask_, static_cast<uint32_t>(manager_->capacity()), unpacker_); }
+    //const Iterator begin() const { return Iterator(manager_, mask_, 0, unpacker_); }
+    //const Iterator end() const { return Iterator(manager_, mask_, static_cast<uint32_t>(manager_->capacity()), unpacker_); }
+    Iterator begin() const { return Iterator(manager_, mask_, 0, unpacker_); }
+    Iterator end() const { return Iterator(manager_, mask_, static_cast<uint32_t>(manager_->capacity()), unpacker_); }
 
 
    private:
