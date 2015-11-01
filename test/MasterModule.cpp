@@ -1,0 +1,3 @@
+#define BOOST_TEST_MODULE MyTest
+#include "test.hpp"
+INITIALIZE_EASYLOGGINGPP

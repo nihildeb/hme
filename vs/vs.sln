@@ -11,11 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hme-test", "hme-test\hme-te
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hme", "hme\hme.vcxproj", "{DA981C51-CD00-4027-B198-71BEAF3828D9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C0F8B70A-9D71-4055-80A3-7CC12234B551} = {C0F8B70A-9D71-4055-80A3-7CC12234B551}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "samples-saga1", "samples-saga1\samples-saga1.vcxproj", "{7C868A2A-63E0-4A2D-84D6-2F639F47071C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DA981C51-CD00-4027-B198-71BEAF3828D9} = {DA981C51-CD00-4027-B198-71BEAF3828D9}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "samples-sfml", "samples-sfml\samples-sfml.vcxproj", "{770F0553-E6DF-48AB-8212-C8BF43429EF2}"
 EndProject
@@ -46,15 +46,19 @@ Global
 		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Debug|x64.ActiveCfg = Debug|x64
 		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Debug|x64.Build.0 = Debug|x64
 		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Debug|x86.Build.0 = Debug|Win32
 		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Release|x64.ActiveCfg = Release|x64
 		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Release|x64.Build.0 = Release|x64
 		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Release|x86.ActiveCfg = Release|Win32
+		{DA981C51-CD00-4027-B198-71BEAF3828D9}.Release|x86.Build.0 = Release|Win32
 		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Debug|x64.ActiveCfg = Debug|x64
 		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Debug|x64.Build.0 = Debug|x64
 		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Debug|x86.ActiveCfg = Debug|Win32
+		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Debug|x86.Build.0 = Debug|Win32
 		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Release|x64.ActiveCfg = Release|x64
 		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Release|x64.Build.0 = Release|x64
 		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Release|x86.ActiveCfg = Release|Win32
+		{7C868A2A-63E0-4A2D-84D6-2F639F47071C}.Release|x86.Build.0 = Release|Win32
 		{770F0553-E6DF-48AB-8212-C8BF43429EF2}.Debug|x64.ActiveCfg = Debug|x64
 		{770F0553-E6DF-48AB-8212-C8BF43429EF2}.Debug|x64.Build.0 = Debug|x64
 		{770F0553-E6DF-48AB-8212-C8BF43429EF2}.Debug|x86.ActiveCfg = Debug|Win32

@@ -9,6 +9,7 @@
 *.lastbuildstate
 *.user
 **/Debug/**
+**/Release/**
 vs/Win32
 vs/ipch
 vs/.vs

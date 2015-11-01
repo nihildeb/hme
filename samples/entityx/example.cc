@@ -24,7 +24,6 @@
 // it was, it caused a overflow in Vector...
 
 // MS Specific shit
-#include "stdafx.h"
 #include <stdio.h>
 #define _USE_MATH_DEFINES
 
@@ -401,8 +400,7 @@ inline bool test_file_exists(const std::string& name) {
 }
 
 int main(int argc, char * argv[]) {
-//    std::srand(std::time(nullptr));
-    std::srand(0);
+  std::srand(std::time(nullptr));
 
   sf::RenderWindow window(sf::VideoMode::getDesktopMode(), "EntityX Example", sf::Style::Fullscreen);
 

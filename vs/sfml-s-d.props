@@ -7,9 +7,9 @@
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\dep\SFML-2.3.2\include;$(ProjectDir)..\..\include\SimpleSignal;$(ProjectDir)..\..\include\EasyLogging\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\dep\entityx;$(ProjectDir)..\..\dep\SFML-2.3.2\include;$(ProjectDir)..\..\include\SimpleSignal;$(ProjectDir)..\..\include\EasyLogging\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>SFML_STATIC;_UNICODE;UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level4</WarningLevel>
     </ClCompile>
     <Link>

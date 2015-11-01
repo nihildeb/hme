@@ -1,6 +1,7 @@
-#include "stdafx.h"
+#include "test.hpp"
+#include "SimpleSignal.h"
 
-static int float_callback(float f, int, std::string) { return 123; }
+static int float_callback(float, int i, std::string) { return i; }
 static int call_count = 0;
 
 void cb(void)
@@ -12,8 +13,8 @@ BOOST_AUTO_TEST_CASE(SimpleSignals)
 {
     Simple::Signal<int(float, int, std::string)> sig;
     sig.connect(float_callback);
-    auto ret = sig.emit(1.0f, 7, "asd");
-    DCHECK(ret == 123);
+    auto ret = sig.emit(1.0f, 123, "asd");
+    //DCHECK(ret == 123);
     BOOST_REQUIRE(ret == 123);
 
     call_count = 0;
@@ -79,7 +80,6 @@ timestamp_benchmark()
 {
     auto now = std::clock();
     auto cast = static_cast<uint64_t>(1.0e9 / CLOCKS_PER_SEC * now);
-    DBOUT("timestamp : " << cast);
     return cast;
 }
 
@@ -96,11 +96,9 @@ BOOST_AUTO_TEST_CASE(SimpleSignalBenchmark)
     }
     const auto benchdone = timestamp_benchmark();
     const auto end_counter = TestCounter::get();
-    assert(end_counter - start_counter == i);
+    BOOST_REQUIRE(end_counter - start_counter == i);
     std::cout << "OK\n  Benchmark: Simple::Signal: " << (size_t(benchdone - benchstart) * 1.0 / size_t(i)) <<
         "ns per emission (size=" << sizeof(sig_increment) << ")\n";
-
-    std::getchar();
 }
 
 BOOST_AUTO_TEST_CASE(SimpleSignalCallbackBenchmark)
@@ -115,7 +113,6 @@ BOOST_AUTO_TEST_CASE(SimpleSignalCallbackBenchmark)
     }
     const auto benchdone = timestamp_benchmark();
     const auto end_counter = TestCounter::get();
-    assert(end_counter - start_counter == i);
+    BOOST_REQUIRE(end_counter - start_counter == i);
     std::cout << "OK\n  Benchmark: callback loop: " << (size_t(benchdone - benchstart) * 1.0 / size_t(i)) << "ns per round\n";
-    std::getchar();
 }
