@@ -901,7 +901,8 @@ static inline void abort(int status, const std::string& reason = std::string()) 
     ELPP_UNUSED(reason);
 #if defined(ELPP_COMPILER_MSVC) && defined(_M_IX86) && defined(_DEBUG)
    // Ignore msvc critical error dialog - break instead (on debug mode)
-    _asm int 3
+    //_asm int 3
+    ::abort(); // this works better with MSVCv14
 #else
     ::abort();
 #endif  // defined(ELPP_COMPILER_MSVC) && defined(_M_IX86) && defined(_DEBUG)

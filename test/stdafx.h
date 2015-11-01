@@ -7,6 +7,17 @@
 
 #ifdef _WIN32
     #include "targetver.h"
+
+#include <Windows.h>
+#include <iostream>
+#include <sstream>
+
+#define DBOUT( s )            \
+{                             \
+   std::wostringstream os_;    \
+   os_ << s;                   \
+   OutputDebugStringW( os_.str().c_str() );  \
+}
 #endif
 
 #include <stdio.h>
@@ -16,3 +27,5 @@
 
 //Adding required boost header
 #include <boost/test/unit_test.hpp>
+#include "easylogging++.h"
+#include "SimpleSignal.h"

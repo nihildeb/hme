@@ -1,4 +1,4 @@
-#include "test.h"
+#include "stdafx.h"
 
 int add( int i, int j ) { return i+j; }
 
@@ -23,8 +23,3 @@ BOOST_AUTO_TEST_CASE( BoostUnitTestSample )
       BOOST_CHECK_EQUAL( add( 2,2 ), 4 );       // #7 continues on error
 }
 
-
-BOOST_AUTO_TEST_CASE(BoostUnitTestSample2)
-{
-    BOOST_REQUIRE(true == true);
-}
